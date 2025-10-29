@@ -19,7 +19,7 @@
 <body>
 
   <!-- Display the map and title with HTML division tags  -->
-  <div id="map-title">Bakeries in Raleigh</div>
+  <div id="map-title">Bakeries in Raleigh, NC</div>
   <div id="map"></div>
 
   <!-- Create the interactive map content with JavaScript (.js) -->
@@ -47,6 +47,10 @@
   /* Display a point marker with pop-up text */
   L.marker([35.7837286,-78.6137775]).addTo(map) // EDIT marker coordinates
   .bindPopup("Lots of options"); // EDIT pop-up text message
+
+  /* Display a point marker with pop-up text */
+  L.marker([35.779534, -78.676207]).addTo(map) // EDIT marker coordinates
+  .bindPopup("Coffee + pastries"); // EDIT pop-up text message
 
   </script>
 </body>
